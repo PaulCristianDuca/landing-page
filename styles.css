@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 99%;
-    margin: 0 auto;
+
   }
   
   .menu-container {
@@ -15,7 +14,6 @@
   }
   
   .menu {
-    
     width: 900px;
     display:flex;
     justify-content: space-between;
@@ -25,6 +23,8 @@
     display: flex;
     justify-content: flex-end;
     color: #E5E7EB;
+    font-size: 18px;
+    
 }
 
 .link-two {
@@ -33,4 +33,60 @@
 
 .link-three {
     margin-left: 20px;
+}
+
+.header-logo {
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header {
+    color: #F9FAF8;
+    background-color: #1F2937;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.separator {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 900px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header-desc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-left {
+    margin-right: 50px;
+}
+
+.header-right {
+    margin-left: 50px;
+}
+
+.header-button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 7px 20px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
 }
