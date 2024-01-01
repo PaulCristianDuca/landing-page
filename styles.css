@@ -121,3 +121,22 @@
 .third-section {
     margin-bottom: 60px;
 }
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    quotes: none;
+}
+
+.quote {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
