@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #F9FAF8;
+    background-color: #1F2937;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    
+    width: 900px;
+    display:flex;
+    justify-content: space-between;
+  }
+  
+.links {
+    display: flex;
+    justify-content: flex-end;
+    color: #E5E7EB;
+}
+
+.link-two {
+    margin-left: 20px;
+}
+
+.link-three {
+    margin-left: 20px;
+}
